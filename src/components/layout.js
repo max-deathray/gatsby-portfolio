@@ -1,4 +1,5 @@
 import React from "react"
+import "./layout.css"
 
 import { Link } from "gatsby"
 const ListLink = props => (
@@ -8,14 +9,14 @@ const ListLink = props => (
 )
 
 export default ({ children }) => (
-  <div style={{ margin: `3rem auto`, maxWidth: `95vw`, padding: `0 1rem` }}>
-    <header style={{ marginBottom: `1.5rem`, borderBottom: `solid 1px grey` }}>
-      <Link to="/" style={{ textShadow: `none`, backgroundImage: `none` }}>
+  <div className="main-container">
+    <header>
+      <Link to="/">
         <h3 style={{ display: `inline`, color: `black` }}>McRae Petrey</h3>
       </Link>
       <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink to="/">Home</ListLink>
-        <ListLink to="/about/">About</ListLink>
+        {/* <ListLink to="/about/">About</ListLink> */}
         <ListLink to="/projects/">Projects</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
@@ -24,16 +25,18 @@ export default ({ children }) => (
     {children}
 
     <footer
-      style={{
-        // border: `solid 1px red`,
-        position: `absolute`,
-        left: `0`,
-        potition: `fixed`,
-        bottom: `0`,
-        width: `100%`,
-        height: `15vh`,
-        backgroundColor: `#6cf`,
-      }}
+    // style={{
+    //   // border: `solid 1px red`,
+    //   // position: `absolute`,
+    //   left: `0`,
+    //   position: `fixed`,
+    //   bottom: `0`,
+    //   width: `100%`,
+    //   height: `15vh`,
+    //   backgroundColor: `#6cf`,
+    //   zIndex: "-2",
+    //   marginTop: `10px`,
+    // }}
     />
   </div>
 )

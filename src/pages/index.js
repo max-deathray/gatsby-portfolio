@@ -10,8 +10,10 @@ export default () => (
       </span>
     </h2>
     <p>
-      I am currently a Teaching Fellow at{" "}
-      <a href="https://www.gracehopper.com/">Grace Hopper</a>.
+      I recently graduated from the{" "}
+      <a href="https://www.gracehopper.com/">Grace Hopper Program</a> at
+      Fullstack Academy of Code in New York City.
     </p>
+    <p>I am currently a Teaching Fellow there!</p>
   </Layout>
 )
