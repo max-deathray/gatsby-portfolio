@@ -27,9 +27,9 @@ export default () => (
                   alt="project screenshot"
                 />
                 <div className="card-body">
-                  <h6>Vibe Tribe | January 2019</h6>
+                  <h6>Codelingo</h6>
                   <p className="card-text">
-                    Pinterest clone built with GraphQL.
+                    Duolingo-inspired game that teaches JavaScript.
                   </p>
                 </div>
               </div>
@@ -51,7 +51,7 @@ export default () => (
                   alt="project screenshot"
                 />
                 <div className="card-body">
-                  <h6>Vibe Tribe</h6>
+                  <h6>Vibe Tribe </h6>
                   <p className="card-text">
                     Pinterest clone built with GraphQL.
                   </p>

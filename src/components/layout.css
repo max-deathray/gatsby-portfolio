@@ -2,6 +2,10 @@
   border: solid 1px red;
 } */
 
+* {
+  box-sizing: border-box;
+}
+
 .main-container {
   margin: 3rem auto;
   max-width: 95vw;
@@ -11,6 +15,13 @@
 header {
   margin-bottom: 1.5rem;
   border-bottom: solid 4px #6cf;
+  /* overflow: hidden; */
+}
+
+header > ul {
+  list-style: none;
+  float: right;
+  margin-bottom: 2px;
 }
 
 .row {
@@ -44,11 +55,30 @@ header {
   color: black;
 }
 
-.card-body :hover {
-  color: red;
+.card-body:hover {
+  color: tomato;
 }
 
-/* footer {
+.contact-icons {
+  list-style: none;
+  display: flex;
+}
+
+.icons {
+  color: rgb(19, 18, 18);
+  margin: 5px 10px;
+}
+
+.icons:hover {
+  color: tomato;
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*
+footer {
   left: 0;
   bottom: 0;
   width: 100%;
