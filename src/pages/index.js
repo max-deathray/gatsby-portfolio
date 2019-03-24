@@ -9,8 +9,9 @@ export default () => (
         👩🏻‍💻 👩🏼‍💻 👩🏽‍💻 👩‍💻 👩🏾‍💻 👩🏿‍💻{" "}
       </span>
     </h2>
+    <p>I am a software engineer in NYC.</p>
     <p>
-      I am a software engineer in NYC. I'm currently a Teaching Fellow at{" "}
+      I'm currently a Teaching Fellow at{" "}
       <a href="https://www.gracehopper.com/">Grace Hopper Program</a> at
       Fullstack Academy of Code in New York City.
     </p>

@@ -1,5 +1,6 @@
 import React from "react"
 import "./layout.css"
+import Resume from "../images/Petrey-McRae-RESUME.pdf"
 
 import { Link } from "gatsby"
 const ListLink = props => (
@@ -14,11 +15,12 @@ export default ({ children }) => (
       <Link to="/">
         <h3 style={{ display: `inline`, color: `black` }}>McRae Petrey</h3>
       </Link>
-      <ul>
+      <ul className="header-links">
         <ListLink to="/">Home</ListLink>
         {/* <ListLink to="/about/">About</ListLink> */}
         <ListLink to="/projects/">Projects</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
+        <a href={Resume}>Resume</a>
       </ul>
     </header>
 

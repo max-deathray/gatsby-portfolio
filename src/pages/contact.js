@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import { FaGithub, FaTwitter, FaLinkedinIn } from "react-icons/fa/"
 
 export default () => (
   <Layout>
@@ -13,18 +14,17 @@ export default () => (
       >
         mpetrey@gmail.com
       </a>
-
-      <a href="https://github.com/max-deathray">
-        <i className="fab fa-github fa-2x icons" />
-      </a>
-
-      <a href="https://www.linkedin.com/in/mcraepetrey/">
-        <i className="fab fa-linkedin-in fa-2x icons" />
-      </a>
-
-      <a href="https://twitter.com/mpetrey">
-        <i className="fab fa-twitter fa-2x icons" />
-      </a>
+      <div className="contact-icons">
+        <a href="https://github.com/max-deathray">
+          <FaGithub style={{ fontSize: `36` }} className="icons" />
+        </a>
+        <a href="https://www.linkedin.com/in/mcraepetrey/">
+          <FaLinkedinIn style={{ fontSize: `36` }} className="icons" />
+        </a>
+        <a href="https://twitter.com/mpetrey">
+          <FaTwitter style={{ fontSize: `36` }} className="icons" />
+        </a>
+      </div>
     </div>
   </Layout>
 )
